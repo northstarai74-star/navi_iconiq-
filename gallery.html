@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iconiq Salon Photo Gallery – Dallas Hair Styles</title>
+  <meta name="description" content="Browse Iconiq's hair style gallery for inspiration: cuts, color, balayage, bridal updos, extensions and men's grooming from our Dallas salon.">
+  <link rel="canonical" href="https://www.iconiqsalon.com/gallery">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Iconiq Salon Photo Gallery – Dallas Hair Styles">
+  <meta property="og:description" content="Hair style inspiration: cuts, color, bridal, extensions and men's grooming.">
+  <meta property="og:url" content="https://www.iconiqsalon.com/gallery">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>/* Welcome splash: once per visit, set before first paint (see js/main.js) */try{if(!sessionStorage.getItem("iconiq-splash")){document.documentElement.classList.add("splash");setTimeout(function(){document.documentElement.classList.remove("splash")},6000)}}catch(e){}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Iconiq Hair and Beauty – home">
+        <span class="logo-mark">ICONIQ</span><span class="logo-sub">Hair &amp; Beauty</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span><span class="bar" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary" href="booking.html">Book Now</a>
+        <a class="admin-link" href="/admin">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Gallery</p>
+        <h1>Real transformations, fresh inspiration</h1>
+        <p class="lead">Explore cuts, color, bridal styles, extensions and men's grooming. Bring a favorite to your consultation and we'll tailor it to you.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="container">
+        <h2 id="gallery-title" class="sr-only">Photo gallery</h2>
+        <div class="filter-bar" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All <span class="filter-count">75</span></button>
+          <button class="filter-btn" type="button" data-filter="color" aria-pressed="false">Color <span class="filter-count">5</span></button>
+          <button class="filter-btn" type="button" data-filter="cuts" aria-pressed="false">Cuts <span class="filter-count">5</span></button>
+          <button class="filter-btn" type="button" data-filter="bridal" aria-pressed="false">Bridal <span class="filter-count">5</span></button>
+          <button class="filter-btn" type="button" data-filter="extensions" aria-pressed="false">Extensions <span class="filter-count">5</span></button>
+          <button class="filter-btn" type="button" data-filter="mens" aria-pressed="false">Men's <span class="filter-count">55</span></button>
+        </div>
+        <p id="gallery-count" class="note" role="status" aria-live="polite">Showing 75 looks</p>
+
+        <!-- PLACEHOLDER PHOTOS: free Unsplash images (unsplash.com/license) used as style inspiration.
+             Replace with real client work (with permission), then restore the "real client work" wording above. -->
+        <div class="gallery-grid">
+          <figure class="gallery-item" data-category="color">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1605980766335-d3a41c7332a1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1605980766335-d3a41c7332a1?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1605980766335-d3a41c7332a1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Woman with bright, dimensional blonde highlights"></div>
+            <figcaption><strong>Bright blonde highlights</strong><span>Full highlights &amp; toner</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="cuts">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Stylist cutting a client's hair with scissors"></div>
+            <figcaption><strong>Precision cut</strong><span>Women's cut &amp; style</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="bridal">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1549236177-77e8271c34b6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1549236177-77e8271c34b6?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1549236177-77e8271c34b6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Bride wearing a white floral hair accessory"></div>
+            <figcaption><strong>Floral bridal accent</strong><span>Bridal styling</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="extensions">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1785456463151-623876d5b7af?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1785456463151-623876d5b7af?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1785456463151-623876d5b7af?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Stylist applying tape-in extensions to blonde hair"></div>
+            <figcaption><strong>Tape-in application</strong><span>Extensions</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber cutting a man's hair with scissors"></div>
+            <figcaption><strong>Classic scissor cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="color">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1586266195531-76cfa365cb43?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1586266195531-76cfa365cb43?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1586266195531-76cfa365cb43?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Woman with vibrant copper-red hair"></div>
+            <figcaption><strong>Rich copper red</strong><span>Single-process color</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="cuts">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Stylist finishing a smooth blowout with a hair dryer"></div>
+            <figcaption><strong>Signature blowout</strong><span>Blowout</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="bridal">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1623428455512-264b33ca8cec?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1623428455512-264b33ca8cec?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1623428455512-264b33ca8cec?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Bridal updo finished with a decorative hair comb"></div>
+            <figcaption><strong>Updo with bridal comb</strong><span>Bridal updo</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="extensions">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Woman with very long, flowing wavy hair"></div>
+            <figcaption><strong>Waist-length waves</strong><span>Length &amp; volume</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber trimming a man's beard with scissors"></div>
+            <figcaption><strong>Beard sculpt</strong><span>Beard trim &amp; shape</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="color">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1574773004910-1eeaabb62b55?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1574773004910-1eeaabb62b55?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1574773004910-1eeaabb62b55?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Long hair colored in shades of violet"></div>
+            <figcaption><strong>Violet fashion color</strong><span>Creative color</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="cuts">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1729005732908-de02acdeca5d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1729005732908-de02acdeca5d?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1729005732908-de02acdeca5d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Black and white photo of a stylist cutting layers"></div>
+            <figcaption><strong>Soft layers</strong><span>Women's cut &amp; style</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="bridal">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1672788725446-c303ec2b318e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1672788725446-c303ec2b318e?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1672788725446-c303ec2b318e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Stylist styling a bride's hair before the ceremony"></div>
+            <figcaption><strong>Wedding-morning prep</strong><span>Bridal party styling</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="extensions">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1596911647169-7085321c81b8?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1596911647169-7085321c81b8?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1596911647169-7085321c81b8?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Back view of long, glossy dark hair"></div>
+            <figcaption><strong>Seamless dark length</strong><span>Extensions</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1657105052497-f996284ffff8?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1657105052497-f996284ffff8?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1657105052497-f996284ffff8?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber using thinning shears and a comb on a man's hair"></div>
+            <figcaption><strong>Textured crop</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="color">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1605980625600-88b46abafa8d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1605980625600-88b46abafa8d?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1605980625600-88b46abafa8d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Hair with a soft silver and dark gray blend"></div>
+            <figcaption><strong>Silver blend</strong><span>Gray blending &amp; gloss</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="cuts">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1780504542368-0c5be0c95f86?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1780504542368-0c5be0c95f86?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1780504542368-0c5be0c95f86?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Hands braiding dark hair"></div>
+            <figcaption><strong>Protective braids</strong><span>Styling</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="bridal">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1586342805832-c0f10f33ac3d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1586342805832-c0f10f33ac3d?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1586342805832-c0f10f33ac3d?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Bride with a white flower headband"></div>
+            <figcaption><strong>Boho flower crown</strong><span>Bridal styling</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="extensions">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1560869713-bf165a9cfac1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1560869713-bf165a9cfac1?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1560869713-bf165a9cfac1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Close-up of full, voluminous blonde hair"></div>
+            <figcaption><strong>Blonde volume</strong><span>Extensions</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1635273051937-a0ddef9573b6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1635273051937-a0ddef9573b6?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1635273051937-a0ddef9573b6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Man getting a taper haircut from a barber"></div>
+            <figcaption><strong>Clean taper</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="color">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1554519515-242161756769?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1554519515-242161756769?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1554519515-242161756769?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Woman with a vivid multicolored hairstyle"></div>
+            <figcaption><strong>Vivid multi-tone</strong><span>Creative color</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="cuts">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1634449571017-5fecfd26ad76?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1634449571017-5fecfd26ad76?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1634449571017-5fecfd26ad76?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Stylist finishing a client's hairstyle"></div>
+            <figcaption><strong>Polished finish</strong><span>Cut &amp; style</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="bridal">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1722805740076-7c51a8669afc?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1722805740076-7c51a8669afc?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1722805740076-7c51a8669afc?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Bride in her wedding dress checking her look in the mirror"></div>
+            <figcaption><strong>The final look</strong><span>Bridal hair</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="extensions">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1707979577466-2d6109c68a45?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1707979577466-2d6109c68a45?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1707979577466-2d6109c68a45?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Stylist working on a client's long hair"></div>
+            <figcaption><strong>Custom color-match</strong><span>Extensions consultation</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1630827020718-3433092696e7?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1630827020718-3433092696e7?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1630827020718-3433092696e7?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Profile of a man with a thick, groomed beard"></div>
+            <figcaption><strong>Full groomed beard</strong><span>Cut + beard package</span></figcaption>
+          </figure>
+<!-- Men's grooming: additional looks -->
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A barber in a denim apron blow-drying a man&#39;s hair in a salon"></div>
+            <figcaption><strong>Blow-dry &amp; style</strong><span>Cut &amp; style</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A tattooed barber using a straight razor to trim a man&#39;s hair"></div>
+            <figcaption><strong>Razor-finished cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Grayscale photography of person holding scissor clipping man&#39;s beard"></div>
+            <figcaption><strong>Beard sculpt</strong><span>Beard trim &amp; shape</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber cutting a man&#39;s hair"></div>
+            <figcaption><strong>Fresh cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber in a white dress shirt cutting a man&#39;s hair"></div>
+            <figcaption><strong>Clean taper</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1705976062088-5433328c2dcd?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1705976062088-5433328c2dcd?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1705976062088-5433328c2dcd?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Precision trim</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1672642150228-3fcd5826ec26?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1672642150228-3fcd5826ec26?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1672642150228-3fcd5826ec26?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a hair stylist"></div>
+            <figcaption><strong>Sharp finish</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1593702295094-aea22597af65?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1593702295094-aea22597af65?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1593702295094-aea22597af65?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber in a white dress shirt cutting a man&#39;s hair"></div>
+            <figcaption><strong>Tailored fade</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1648221122323-572c13a31663?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1648221122323-572c13a31663?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1648221122323-572c13a31663?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Neat line-up</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1640301133543-41fe25ad6450?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1640301133543-41fe25ad6450?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1640301133543-41fe25ad6450?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Classic cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1520338661084-680395057c93?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1520338661084-680395057c93?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1520338661084-680395057c93?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber cutting man&#39;s hair"></div>
+            <figcaption><strong>Refined crop</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1582771498000-8ad44e6c84db?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1582771498000-8ad44e6c84db?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1582771498000-8ad44e6c84db?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting a haircut at a barber shop"></div>
+            <figcaption><strong>Detail work</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1693755807658-17ce5331aacb?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1693755807658-17ce5331aacb?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1693755807658-17ce5331aacb?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Barber's touch</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1695662917617-a1bfc0e2fbed?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1695662917617-a1bfc0e2fbed?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1695662917617-a1bfc0e2fbed?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man with a mohawk undercut and sunglasses"></div>
+            <figcaption><strong>Mohawk undercut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1701885183616-cf00e2db1a3b?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1701885183616-cf00e2db1a3b?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1701885183616-cf00e2db1a3b?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut with a comb and scissors"></div>
+            <figcaption><strong>Scissor cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1541533848490-bc8115cd6522?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1541533848490-bc8115cd6522?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1541533848490-bc8115cd6522?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber cutting a man&#39;s hair"></div>
+            <figcaption><strong>Short back &amp; sides</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1733995471047-62a3bb52b657?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1733995471047-62a3bb52b657?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1733995471047-62a3bb52b657?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A barber cutting a man&#39;s hair with a pair of scissors"></div>
+            <figcaption><strong>Scissor cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1586660455980-bfa2eb619b35?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1586660455980-bfa2eb619b35?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1586660455980-bfa2eb619b35?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber holding a hair dryer, ready to style"></div>
+            <figcaption><strong>Blow-dry &amp; style</strong><span>Cut &amp; style</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1665947823432-fabb5e9631bf?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1665947823432-fabb5e9631bf?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1665947823432-fabb5e9631bf?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A barber cutting a man&#39;s hair"></div>
+            <figcaption><strong>Modern classic</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1593702233354-259d1f794ed1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1593702233354-259d1f794ed1?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1593702233354-259d1f794ed1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut in a barber shop"></div>
+            <figcaption><strong>Fresh cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Clean taper</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1701891123509-e983d6c45259?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1701891123509-e983d6c45259?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1701891123509-e983d6c45259?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Precision trim</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1733995471058-3d6ff2013de3?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1733995471058-3d6ff2013de3?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1733995471058-3d6ff2013de3?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Sharp finish</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1648221122279-5246dd0cf86c?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1648221122279-5246dd0cf86c?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1648221122279-5246dd0cf86c?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Tailored fade</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1717089256239-dc2ed4d9dfc6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1717089256239-dc2ed4d9dfc6?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1717089256239-dc2ed4d9dfc6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Neat line-up</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1743779035881-9205ef92f1ce?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1743779035881-9205ef92f1ce?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1743779035881-9205ef92f1ce?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his beard trimmed with clippers"></div>
+            <figcaption><strong>Beard sculpt</strong><span>Beard trim &amp; shape</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1639511177364-0866c0da16fa?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1639511177364-0866c0da16fa?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1639511177364-0866c0da16fa?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man with a beard getting his hair cut"></div>
+            <figcaption><strong>Cut &amp; beard</strong><span>Cut + beard package</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1705976063599-39e79ab87bb1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1705976063599-39e79ab87bb1?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1705976063599-39e79ab87bb1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Classic cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1705976063063-af7d6b9a4083?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1705976063063-af7d6b9a4083?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1705976063063-af7d6b9a4083?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Refined crop</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1761148438883-e34e0289a214?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1761148438883-e34e0289a214?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1761148438883-e34e0289a214?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber shaving a man&#39;s beard with a straight razor"></div>
+            <figcaption><strong>Straight-razor shave</strong><span>Signature hot towel shave</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1653875700329-a7c8aca94c95?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1653875700329-a7c8aca94c95?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1653875700329-a7c8aca94c95?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Detail work</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1653875700318-c235ce6eb128?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1653875700318-c235ce6eb128?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1653875700318-c235ce6eb128?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Barber's touch</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1675746435874-e72d846bdca5?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1675746435874-e72d846bdca5?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1675746435874-e72d846bdca5?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A black and white photo of a man getting his hair cut"></div>
+            <figcaption><strong>Classic barbering</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1708936944985-16f928c5e650?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1708936944985-16f928c5e650?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1708936944985-16f928c5e650?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut in a barber shop"></div>
+            <figcaption><strong>Short back &amp; sides</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1533808232502-bee53575c3af?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1533808232502-bee53575c3af?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1533808232502-bee53575c3af?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber giving a reclining man a shave"></div>
+            <figcaption><strong>Hot towel shave</strong><span>Signature hot towel shave</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1672642150262-6edcbffa463e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1672642150262-6edcbffa463e?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1672642150262-6edcbffa463e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair washed in a sink"></div>
+            <figcaption><strong>Shampoo &amp; scalp massage</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1653875700322-cf550d9a52ff?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1653875700322-cf550d9a52ff?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1653875700322-cf550d9a52ff?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Modern classic</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1735150949874-ec9c9c82b2c4?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1735150949874-ec9c9c82b2c4?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1735150949874-ec9c9c82b2c4?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Fresh cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1739302493888-6f96cbc37105?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1739302493888-6f96cbc37105?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1739302493888-6f96cbc37105?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Clean taper</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1733995471061-eb3235d212b1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1733995471061-eb3235d212b1?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1733995471061-eb3235d212b1?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Precision trim</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1640168842538-39983fdebb1a?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1640168842538-39983fdebb1a?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1640168842538-39983fdebb1a?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Sharp finish</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1642504640216-a2a8cce892e6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1642504640216-a2a8cce892e6?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1642504640216-a2a8cce892e6?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man with a mohawk undercut wearing sunglasses"></div>
+            <figcaption><strong>Mohawk undercut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1759675905700-a1b5efedc05c?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1759675905700-a1b5efedc05c?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1759675905700-a1b5efedc05c?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Man with a heart design carved into his haircut"></div>
+            <figcaption><strong>Custom hair design</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1514336937476-a5b961020a5c?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1514336937476-a5b961020a5c?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1514336937476-a5b961020a5c?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="Barber trimming a man&#39;s hair"></div>
+            <figcaption><strong>Tailored fade</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1669568921948-f0346e0ee73e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1669568921948-f0346e0ee73e?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1669568921948-f0346e0ee73e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his haircut"></div>
+            <figcaption><strong>Neat line-up</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1735150949646-f998a2061b82?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1735150949646-f998a2061b82?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1735150949646-f998a2061b82?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Classic cut</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1646733083019-0f7d6225c782?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1646733083019-0f7d6225c782?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1646733083019-0f7d6225c782?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut by a barber"></div>
+            <figcaption><strong>Refined crop</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1659355751282-5ca7807af9e9?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1659355751282-5ca7807af9e9?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1659355751282-5ca7807af9e9?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A barber cutting a man&#39;s hair"></div>
+            <figcaption><strong>Detail work</strong><span>Express cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1735150950233-d8d10d5926a8?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1735150950233-d8d10d5926a8?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1735150950233-d8d10d5926a8?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Barber's touch</strong><span>Men's cut</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="mens">
+            <div class="photo photo-real"><img src="https://images.unsplash.com/photo-1640301133475-022575fc647e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70" srcset="https://images.unsplash.com/photo-1640301133475-022575fc647e?auto=format&amp;fit=crop&amp;w=480&amp;h=384&amp;q=70 480w, https://images.unsplash.com/photo-1640301133475-022575fc647e?auto=format&amp;fit=crop&amp;w=700&amp;h=560&amp;q=70 700w" sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 400px" width="700" height="560" loading="lazy" alt="A man getting his hair cut at a barber shop"></div>
+            <figcaption><strong>Short back &amp; sides</strong><span>Men's cut</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title">See a look you love?</h2>
+        <p>Save the photo and bring it to your consultation. We'll tailor it to your hair and features.</p>
+        <div class="btn-row">
+          <a class="btn btn-light" href="booking.html">Book Now</a>
+          <a class="btn btn-outline-light" href="https://www.instagram.com/iconiq_unisex_studio/" target="_blank" rel="noopener">More on Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html" aria-label="Iconiq Hair and Beauty – home"><span class="logo-mark">ICONIQ</span><span class="logo-sub">Hair &amp; Beauty</span></a>
+        <p>A luxury hair salon offering expert cuts, color, extensions and bridal styling.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/iconiq_unisex_studio/" target="_blank" rel="noopener" aria-label="Iconiq on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.2 4.3 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.1 3.6 2.2 5.7 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.1 5.7-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.1-3.6-2.2-5.7-5.8-5.8C15 2 14.7 2 12 2zm0 1.8c2.7 0 3 0 4 .1 2.6.1 3.9 1.4 4 4 .1 1 .1 1.4.1 4.1s0 3-.1 4c-.1 2.6-1.4 3.9-4 4-1 .1-1.3.1-4 .1s-3 0-4-.1c-2.6-.1-3.9-1.4-4-4-.1-1-.1-1.3-.1-4s0-3 .1-4c.1-2.6 1.4-3.9 4-4 1-.1 1.3-.1 4-.1z"/></svg></a>
+          <a href="https://www.facebook.com/" aria-label="Iconiq on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22h3.4z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <address>Iconiq Hair &amp; Beauty<br>Kulam Road, Nawanshahr, Punjab</address>
+        <p><a href="tel:+917901895498">+91 79018 95498</a></p>
+        <p>Mon–Sat 9 AM–7 PM<br>Sun 10 AM–4 PM</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="services.html">Services &amp; Prices</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="policies.html">Salon Policies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year>2026</span> Iconiq Hair &amp; Beauty. All rights reserved.</p>
+      <p><a href="policies.html#privacy">Privacy</a> · <a href="policies.html">Salon Policies</a></p>
+    </div>
+  </footer>
+
+  <nav class="mobile-bar" aria-label="Quick actions">
+    <a class="call" href="tel:+917901895498">Call</a>
+    <a class="book" href="booking.html">Book Now</a>
+  </nav>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
