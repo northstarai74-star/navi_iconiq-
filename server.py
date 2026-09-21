@@ -1,6 +1,8 @@
 """Iconiq website server.
 
-Serves the static site, the booking API and the admin panel.
+Serves the static site (public/), the booking API and the admin panel.
+This is the local development server; in production Vercel serves public/
+from its CDN and runs api/index.py for /api/* and /admin (see vercel.json).
 Bookings are stored in Supabase (see store.py and supabase/schema.sql);
 admin.py is the admin panel.
 
@@ -27,7 +29,7 @@ PRIVATE = (".db", ".db-journal", ".py", ".pyc", ".md")
 
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=store.ROOT, **kwargs)
+        super().__init__(*args, directory=store.STATIC_ROOT, **kwargs)
 
     def send_json(self, status, payload):
         body = json.dumps(payload).encode("utf-8")

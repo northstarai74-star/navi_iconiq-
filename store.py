@@ -16,6 +16,9 @@ from datetime import datetime, timedelta, timezone
 from urllib.parse import quote, urlencode
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
+# The public website lives in public/ so that, on Vercel, only those files are
+# published to the CDN and the Python next to them stays server-side.
+STATIC_ROOT = os.path.join(ROOT, "public")
 
 
 def _load_env_file():

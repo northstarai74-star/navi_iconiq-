@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/slots", "destination": "/api/index?p=/api/slots" },
+    { "source": "/api/book", "destination": "/api/index?p=/api/book" },
+    { "source": "/admin", "destination": "/api/index?p=/admin" },
+    { "source": "/admin/:path*", "destination": "/api/index?p=/admin/:path*" }
+  ],
+  "functions": {
+    "api/index.py": {
+      "excludeFiles": "{public/**,supabase/**,__pycache__/**,**/__pycache__/**,.claude/**}"
+    }
+  }
+}
